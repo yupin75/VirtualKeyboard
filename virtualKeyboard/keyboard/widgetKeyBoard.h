@@ -28,7 +28,7 @@
         Q_OBJECT
 
         public:
-            widgetKeyBoard(bool embeddedKeyboard = false, QWidget *activeForm = NULL, QWidget *parent = NULL);
+            widgetKeyBoard(bool embeddedKeyboard = false, QWidget *activeForm = NULL, QWidget *parent = NULL, Qt::WindowFlags Flags=Qt::FramelessWindowHint);
             ~widgetKeyBoard();
 
             void            createKeyboard(void);
